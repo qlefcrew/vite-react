@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DropGenius™ - AI Music Distribution</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <div class="content">
+      <h1>DropGenius<span class="highlight">™</span></h1>
+      <p class="tagline">
+        AI-powered platform for music distribution, royalty automation, and global reach.
+        Join the movement.
+      </p>
+
+      <form id="subscribe-form" class="form">
+        <input type="email" id="email" placeholder="Enter your email for early access" required />
+        <button type="submit">Get Early Access</button>
+      </form>
+
+      <div class="upload-box">
+        <h2>Upload Your Track</h2>
+        <form id="upload-form">
+          <input type="file" id="track-file" accept="audio/*" />
+          <button type="submit">Upload Track</button>
+        </form>
+        <p id="upload-status" class="status-msg"></p>
+      </div>
+    </div>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
